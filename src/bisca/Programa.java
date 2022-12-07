@@ -3,7 +3,9 @@ package bisca;
 public class Programa {
 
 	public static void main(String[] args) {
-		System.out.println("opa");
+		Carta cartaAs = new Carta ("As", "Ouros", 11);
+		System.out.println(cartaAs);
+	
 		
 	}
 }
